@@ -3,7 +3,7 @@ mod HelloStarknet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 //no changes needed 
-//new wayy of looking into a contract 
+//new way of looking into a contract 
     #[event]
     fn Hello(from: ContractAddress, value: felt252) {}
 
@@ -15,3 +15,8 @@ mod HelloStarknet {
     }
 
 }
+
+
+/*
+* loler
+*/
