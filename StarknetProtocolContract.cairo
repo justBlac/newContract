@@ -13,7 +13,7 @@ mod HelloStarknet {
         let caller = get_caller_address();
         Hello(caller, message);
     }
-
+// maybe there is a need to make new mod
 }
 
 //hype on straknet
